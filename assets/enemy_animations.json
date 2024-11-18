@@ -1,0 +1,11 @@
+{
+  "format": {
+    "width": 72,
+    "height": 30,
+    "tileWidth": 36,
+    "tileHeight": 30
+  },
+  "frames": {
+    "idle": [0, 1]
+  }
+}

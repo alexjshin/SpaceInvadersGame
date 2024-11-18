@@ -1,0 +1,20 @@
+{
+  "authors": ["Alex Shin"],
+  "copyright": "Copyright © 2024, Alex Shin",
+  "description": "Space Invaders Game",
+  "license": "proprietary",
+  "name": "spaceinvaders",
+  "dependencies": {
+    "bindbc-loader": "1.0.1",
+    "bindbc-sdl": "1.2.4"
+  },
+  "versions": ["SDL_Mixer"],
+  "configurations": [
+    {
+      "name": "debug",
+      "targetType": "executable",
+      "dflags": ["-g", "-debug"],
+      "buildOptions": ["debugMode", "debugInfo"]
+    }
+  ]
+}
